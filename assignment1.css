@@ -66,3 +66,77 @@ footer {
   height: 50px;
   background-color: #aaaaaa;
 }
+
+/*768px以下で縦並び*/
+@media screen and (max-width: 768px) {
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .item-box {
+    width: 90%;
+    margin: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: static;
+  }
+
+  .item-box:first-child {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .item-box:last-child {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+.item-number1 {
+  position: absolute;
+  top: 19%;
+  left: 5%;
+  background-color: #ff9a4b;
+  color: #ffffff;
+}
+
+  .item-image1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: right;
+  background-size: cover;
+}
+
+.item-number2 {
+  position: absolute;
+  top: 73%;
+  left: 5%;
+  background-color: #ff9a4b;
+  color: #ffffff;
+}
+
+.item-image2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.item-number3 {
+  position: absolute;
+  top: 125%;
+  left: 5%;
+  background-color: #ff9a4b;
+  color: #ffffff;
+}
+
+.item-image3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: left bottom;
+  background-size: cover;
+}
+
+}
+
