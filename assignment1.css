@@ -72,7 +72,10 @@ footer {
 
   main {
     width: 100%;
-    display: block;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .item-box {
@@ -80,40 +83,20 @@ footer {
     margin: 20px;
     margin-right: 5%;
     margin-left: 5%;
-    position: static;
+    ;
   }
 
-  .item-box:first-child {
-    margin-top: 50px;
-    margin-bottom: 20px;
+  .item-box:nth-child(2) {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
-  .item-box:last-child {
-    margin-top: 20px;
-    margin-bottom: 50px;
-  }
-
-.item-number1 {
-  position: absolute;
-  top: 19%;
-  left: 5%;
-  background-color: #ff9a4b;
-  color: #ffffff;
-}
 
   .item-image1 {
   height: 150px;
   background-image: url(img/flow01.png);
   background-position: right;
   background-size: cover;
-}
-
-.item-number2 {
-  position: absolute;
-  top: 73%;
-  left: 5%;
-  background-color: #ff9a4b;
-  color: #ffffff;
 }
 
 .item-image2 {
@@ -123,14 +106,6 @@ footer {
   background-size: cover;
 }
 
-.item-number3 {
-  position: absolute;
-  top: 125%;
-  left: 5%;
-  background-color: #ff9a4b;
-  color: #ffffff;
-}
-
 .item-image3 {
   height: 150px;
   background-image: url(img/flow03.png);
@@ -138,5 +113,15 @@ footer {
   background-size: cover;
 }
 
+.item-number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #ffffff;
 }
 
+.item-heading {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
